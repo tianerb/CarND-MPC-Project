@@ -72,4 +72,4 @@ const double coeff_delta_d = 100000;
 const double coeff_a_d = 1;
 ```
 
-I tuned these parameters for a while. The coeffficients for `delta` and `delta_d` had to be set relatively large so that the car can turn smoothly. In the end my car can drive at a speed of `90 MPH` but may touch the curb once in one loop. It can easily drive without touching the curb at lower speed.
+I tuned these parameters for a while. The coeffficients for `delta` and `delta_d` had to be set relatively large so that the car can turn smoothly. In the end my car can drive at a speed of `90 MPH` but may touch the curb once in one loop. It can easily drive without touching the curb at lower speed. I've recorded the car driving in one loop with 80 MPH speed in the git repo.
